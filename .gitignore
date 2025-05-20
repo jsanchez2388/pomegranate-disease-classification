@@ -1,0 +1,18 @@
+# Ignore Python cache files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Ignore the entire /data directory
+/data/
+
+# Ignore the entire /pomegranate directory
+/pomegranate/
+
+# Ignore everything in /models
+/models/Davit-Base-E40-B20/*
+/models/EfficientNet-M-Pretrained-E50-B20/*
+/models/MobileOne-S4-Pretrained-E50-B20/*
+
+# Ignore model weight files
+models/final/*
